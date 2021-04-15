@@ -1,7 +1,7 @@
 # OAuth2使用RestTemplate请求token
 为了易于你去理解，请忽略nacos;
 
-sql是固定的，直接导直接用，密码加密用的是BCrypt;
+sql是固定的，直接导直接用，加密用的是BCrypt;
 
 项目用了mybatis plus，请记得entity的实体类与表同名。
 
@@ -9,6 +9,8 @@ sql是固定的，直接导直接用，密码加密用的是BCrypt;
 v_user表加密密码:
   - vue : vue
   - admin : admin
+
+
 oauth_client_details表加密密码:
   - cli : sec
   - client : secret
