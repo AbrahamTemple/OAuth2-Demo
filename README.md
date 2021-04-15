@@ -1,10 +1,10 @@
 # OAuth2使用RestTemplate请求token
-为了易于你去理解，请忽略nacos
-以oauth开头的表是固定的，直接导直接用
-项目用了mybatis plus，请记得entity的实体类与表同名
+为了易于你去理解，请忽略nacos;
+以oauth开头的表是固定的，直接导直接用;
+项目用了mybatis plus，请记得entity的实体类与表同名.
 
 
-主要的代码在authorization-server认证服务器项目下的控制类内
+主要的代码在authorization-server认证服务器项目下的控制类内:
 
     @RequestMapping("/pass")
     public MyToken getPassToken(@RequestParam String username, @RequestParam String password) throws UserPrincipalNotFoundException {
