@@ -6,6 +6,10 @@ server:
 spring:
   application:
     name: vong-admin
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ${vong.naocs.ip}:${vong.nacos.port}
 
 security:
   oauth2:
