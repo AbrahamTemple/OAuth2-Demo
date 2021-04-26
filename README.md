@@ -3,6 +3,8 @@
 
 如果你不想看简单化的的代码请直接索引项目vong-oauth
 
+> 以下是数据库数据的备注
+
 v_user表加密密码:
   - vue : vue
   - admin : admin
