@@ -5,20 +5,20 @@
 
 ## 以下是数据库数据的备注
 
-- v_user表加密密码:
+v_user表加密密码:
 
-> vue : vue
+* vue : vue
 
-> admin : admin
+* admin : admin
 
 
-- oauth_client_details表加密密码:
+oauth_client_details表加密密码:
  
- > cli : sec
+* cli : sec
  
- > client : secret
+* client : secret
  
- > clients : secrets
+> clients : secrets
 
 
 ## 主要的代码在rest的控制类内:
