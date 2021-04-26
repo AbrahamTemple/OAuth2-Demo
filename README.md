@@ -3,20 +3,25 @@
 
 如果你不想看简单化的的代码请直接索引项目vong-oauth
 
-> 以下是数据库数据的备注
+## 以下是数据库数据的备注
 
-v_user表加密密码:
-  - vue : vue
-  - admin : admin
+- v_user表加密密码:
 
+> vue : vue
 
-oauth_client_details表加密密码:
-  - cli : sec
-  - client : secret
-  - clients : secrets
+> admin : admin
 
 
-主要的代码在rest的控制类内:
+- oauth_client_details表加密密码:
+ 
+ > cli : sec
+ 
+ > client : secret
+ 
+ > clients : secrets
+
+
+## 主要的代码在rest的控制类内:
 
 - 密码模式认证
 
