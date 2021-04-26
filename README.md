@@ -49,3 +49,7 @@ oauth_client_details表加密密码:
         return new RestTemplate().getForObject(instance.toString(), MyTokenDto.class);
     }
 ```
+
+## 预期结果
+
+![Screenshot](vong-oauth/screenshot.png)
