@@ -7,16 +7,16 @@
 
 v_user表加密密码:
 
-* vue : vue
+> vue : vue
 
-* admin : admin
+> admin : admin
 
 
 oauth_client_details表加密密码:
  
-* cli : sec
+> cli : sec
  
-* client : secret
+> client : secret
  
 > clients : secrets
 
