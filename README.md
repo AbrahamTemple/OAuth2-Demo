@@ -1,6 +1,6 @@
 # OAuth2使用RestTemplate请求token
 
-![Screenshot](banner.png)
+![Screenshot](oauth_logo.jpg)
 
 ## JWT简单理解
 
