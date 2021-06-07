@@ -1,5 +1,7 @@
 # OAuth2使用RestTemplate请求token
 
+![Screenshot](banner.png)
+
 ## JWT简单理解
 
 > https://www.cnblogs.com/aaron911/p/11300062.html
