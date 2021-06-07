@@ -20,8 +20,16 @@ oauth_client_details表加密密码:
  
 > clients : secrets
 
+## 原请求
 
-## 主要的代码在rest的控制类内:
+
+> Basic Auth --- Username: cli & Password: sec
+
+``` bash
+124.71.185.137:8077/oauth/token?grant_type=client_credentials&scopes=app
+```
+
+## 封装的请求:
 
 - 密码模式认证
 
