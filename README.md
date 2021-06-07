@@ -1,7 +1,8 @@
 # OAuth2使用RestTemplate请求token
-在第一次提交的authorization-server基础上锦上添花
 
-如果你不想看简单化的的代码请直接索引项目vong-oauth
+## JWT简单理解
+
+> https://www.cnblogs.com/aaron911/p/11300062.html
 
 ## 以下是数据库数据的备注
 
