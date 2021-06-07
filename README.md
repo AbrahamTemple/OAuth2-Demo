@@ -22,11 +22,15 @@ oauth_client_details表加密密码:
 
 ## 原请求
 
+``` base
+localhost:8077/oauth/token?client_id=cli&client_secret=sec&scopes=app&grant_type=client_credentials
+```
+Or
 
 > Basic Auth --- Username: cli & Password: sec
 
 ``` bash
-124.71.185.137:8077/oauth/token?grant_type=client_credentials&scopes=app
+localhost:8077/oauth/token?grant_type=client_credentials&scopes=app
 ```
 
 ## 封装的请求:
