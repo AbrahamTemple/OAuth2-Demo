@@ -20,12 +20,11 @@ oauth_client_details表加密密码:
  
 > clients : secrets
 
-## 原请求
+## 密码模式原请求
 
 ``` base
 localhost:8077/oauth/token?client_id=cli&client_secret=sec&scopes=app&grant_type=client_credentials
 ```
-Or
 
 > Basic Auth --- Username: cli & Password: sec
 
